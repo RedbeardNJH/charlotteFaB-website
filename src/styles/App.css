@@ -1,0 +1,55 @@
+#root {
+  max-width: 1280px;
+}
+
+header, main {
+  margin: 0;
+  margin-left: 3rem;
+}
+
+p {
+  text-align: left;
+}
+
+img {
+  max-width: 15rem;
+  max-height: 20rem;
+}
+
+figure {
+  place-items: left;
+  display: inline-block;
+  max-width: 20rem;
+  padding: 0;
+}
+
+figcaption {
+  color: rgb(146, 1, 1);
+  text-align: center;
+  font-size: 25px;
+}
+
+figure p {
+  max-width: 12rem;
+}
+
+h2 {
+  text-align: center;
+}
+
+button {
+  display: block;
+}
+
+.bottom-fig {
+  max-width: 100rem;
+}
+
+.bottom-fig p {
+  max-width: 100rem;
+}
+
+.bottom-fig img {
+  max-height: 50rem;
+  max-width: 100rem;
+}
