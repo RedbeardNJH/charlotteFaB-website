@@ -9,26 +9,26 @@ function App() {
       <button>Join now!</button>
 
       <figure>
-        <img src="../public/images/barmery.jpg" alt="barmery" />
+        <img src="/images/barmery.jpg" alt="barmory" />
         <figcaption>HAVING FUN</figcaption>
         <p>You can compete for promos while expressing your skill in playing, costume making, or judging.  But the whole point is to have some fun!  "Play the game, see the world" was very influential to James White, the founder of Legend Story Studios, and many of our players have.  There's a lot of ways to have fun with Flesh and Blood, and there's no wrong way to get started.  But we're happy you're here with us. </p>
       </figure>
 
       <figure>
         <figcaption>PLAYING GAMES</figcaption>
-        <img src="../../public/images/dont-know.jpg" alt="no clue who" />
+        <img src="/images/dont-know.jpg" alt="no clue who" />
         <p>Draft.  Classic Constructed.  Sealed.  Blitz.  Blitz Preconstructed.  Crack, Shuffle, Play.  Living Legend.  Shapeshifter.  Clash.  Commoner.  Ultimate Pit Fight.  Deathmatch Arena.  There are so many formats for the game that you're bound to find something that fits your play style and collection.  If you want to know more about how to play, we're here to help.</p>
       </figure>
 
       <figure>
-        <img src="../public/images/big-armory.jpg" alt="big" />
+        <img src="/images/big-armory.jpg" alt="big" />
         <figcaption>IN THE FLESH AND BLOOD</figcaption>
-         <img src="../public/images/gsg-armory.jpg" alt="get some game" />
+         <img src="/images/gsg-armory.jpg" alt="get some game" />
         <p>These guys don't look so tough.  Bring it on!</p>
       </figure>
 
-      <figure class="bottom-fig">
-        <img src="../../public/images/nats-crew.jpg" alt="nationals" />
+      <figure className="bottom-fig">
+        <img src="/images/nats-crew.jpg" alt="nationals" />
         <p>Charlotte players (and Dozr) at the 2021 National Championships</p>
       </figure>
     </>

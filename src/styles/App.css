@@ -12,15 +12,21 @@ p {
 }
 
 img {
-  max-width: 15rem;
-  max-height: 20rem;
+  /* Make images scale to their container and keep aspect ratio.
+     Using block-level images inside figures avoids baseline alignment gaps. */
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 figure {
-  place-items: left;
+  /* Use inline-block to flow figures, but align their tops so different
+     heights don't cause baseline misalignment. Add a small margin. */
   display: inline-block;
+  vertical-align: top;
   max-width: 20rem;
   padding: 0;
+  margin: 0 1rem 1rem 0;
 }
 
 figcaption {
