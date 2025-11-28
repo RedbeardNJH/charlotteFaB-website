@@ -11,12 +11,27 @@ h1 {
 }
 
 header{
-  background-color: red;
+  /* background-color: red; */
+  background-image: url(../../public/images/Learn_To_Play_BG-4-resized-1024x375.webp);
+  background-repeat: no-repeat;
+  background-position:top;
+  background-size: 105%;
   text-align: center;
+  padding-bottom: 10px;
+  padding-top: 1em;
+  margin-top: 10px;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  background-color: green;
 }
 
 footer{
-  background-color:red;
+  background-color: red;
   color:white;
   font-size: 30px;
   text-align: center;
@@ -36,5 +51,6 @@ body {
 }
 
 .content {
-  background-color: green;
+  background-color: #181818;
+  color: white;
 }
