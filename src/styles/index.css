@@ -35,8 +35,8 @@ header {
 main {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0;
-  margin-left: 3rem;
   padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 footer {
@@ -56,4 +56,17 @@ nav a {
 .content {
   background-color: #240c45;
   color: white;
+}
+
+.frame {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left_side {
+    padding-right: 5rem;
+}
+
+.right_side {
+    font-family: inherit;
 }
