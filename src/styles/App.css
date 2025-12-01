@@ -83,3 +83,6 @@ a:hover {
 #discord-link{
   font-size: 30px;
 }
+.people{
+  display: inline;
+}
