@@ -6,7 +6,7 @@ function App() {
       <h2>Welcome</h2>
       <p>Trading Card Games are an incredible medium for bringing people together as a community. They are a force so powerful as to transcend the barriers of age, race, religion, gender and even spoken language, through a common language of "playing great games."</p>
       <p>In our wonderful world of breathtaking technology, we believe the need for local communities, forging local friendships, will never be out of date. We are grateful to the Local Game Store (LGS) owners and staff around the world who work hard to provide welcoming environments for local TCG communities to exist.</p>
-      <button>Join now!</button>
+      
 
       <figure>
         <img src="/images/barmery.jpg" alt="barmory" />

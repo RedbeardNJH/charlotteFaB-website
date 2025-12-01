@@ -5,29 +5,14 @@
   margin: 0;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-header{
-  background-color: red;
-  text-align: center;
-}
-
-footer{
-  background-color:red;
-  color:white;
-  font-size: 30px;
-  text-align: center;
-  width: 100%;
-}
-
 body {
   display: flex;
-  justify-content: center; /* centers horizontally */
-  height: 100vh;           /* makes body full height of the viewport */
-  margin: 0;               /* remove default spacing */
+  justify-content: center;
+  /* centers horizontally */
+  height: 100vh;
+  /* makes body full height of the viewport */
+  margin: 0;
+  /* remove default spacing */
   min-width: 320px;
   min-height: 100vh;
   background-image: url(/images/deathmatch_bg-scaled-1.jpg);
@@ -35,6 +20,53 @@ body {
   background-attachment: fixed;
 }
 
+header {
+  /* background-color: red; */
+  background-image: url(../../public/images/Learn_To_Play_BG-4-resized-1024x375.webp);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 105%;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 1em;
+  margin-top: 10px;
+}
+
+main {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+footer {
+  background-color: #1a0900;
+  color: #dab45f;
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+}
+
+header,
+nav a {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #dab45f;
+}
+
 .content {
-  background-color: green;
+  background-color: #240c45;
+  color: white;
+}
+
+.frame {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left_side {
+    padding-right: 5rem;
+}
+
+.right_side {
+    font-family: inherit;
 }
