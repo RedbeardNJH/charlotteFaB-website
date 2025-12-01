@@ -16,14 +16,10 @@ h2 {
 p {
   text-align: left;
 }
-
-img {
-  /* Make images scale to their container and keep aspect ratio.
-     Using block-level images inside figures avoids baseline alignment gaps. */
-  max-width: 100%;
-  height: auto;
-  display: block;
+img{
+  margin: 0 1rem;
 }
+
 
 figure {
   /* Use inline-block to flow figures, but align their tops so different
@@ -39,6 +35,13 @@ figcaption {
   color: rgb(249, 109, 109);
   text-align: center;
   font-size: 25px;
+}
+figure img {
+  /* Make images scale to their container and keep aspect ratio.
+     Using block-level images inside figures avoids baseline alignment gaps. */
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 figure p {
@@ -58,7 +61,7 @@ button {
 }
 
 a {
-  color: white;
+  color: rgb(62, 255, 72);
 }
 
 a:hover {
@@ -76,4 +79,7 @@ a:hover {
 .bottom-fig img {
   max-height: 50rem;
   max-width: 100rem;
+}
+#discord-link{
+  font-size: 30px;
 }
