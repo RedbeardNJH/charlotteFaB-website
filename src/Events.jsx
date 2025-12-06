@@ -3,7 +3,8 @@ import './styles/App.css'
 function Events() {
     return(
         <>
-        <p>Content</p>
+        <h2>Events</h2>
+        <p>Insert Calendar here</p>
         </>
     );
 }
