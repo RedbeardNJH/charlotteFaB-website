@@ -13,9 +13,8 @@ h2 {
   font-size: 40px;
 }
 
-p {
-  text-align: left;
-}
+/* Scoped paragraph alignment to avoid overriding footer/other global text */
+
 img{
   margin: 0 1rem;
 }

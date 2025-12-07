@@ -1,9 +1,8 @@
 export default function Footer() {
     return (
         <footer>
-            <nav>
-            </nav>
-            <p>Designed by Noah Harden and Jacob Kilcrease &copy; 2025</p>
+            <p class="footerP">Designed by Noah Harden and Jacob Kilcrease</p>
+            <p class="footerP"><a href="https://github.com/RedbeardNJH/charlotteFaB-website">GitHub</a> | Issues with the site? Contact: doggo4d on discord</p>
         </footer>
     );
 }

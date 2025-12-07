@@ -15,9 +15,11 @@ body {
   /* remove default spacing */
   min-width: 320px;
   min-height: 100vh;
-  background-image: url(/images/deathmatch_bg-scaled-1.jpg);
+  /* background-image: url(/images/deathmatch_bg-scaled-1.jpg); */
+  background-image: url(/images/penumbra.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-position: center;
 }
 
 header {
@@ -29,7 +31,7 @@ header {
   text-align: center;
   padding-bottom: 10px;
   padding-top: 1em;
-  margin-top: 10px;
+  margin-top: 1.5rem;
 }
 
 main {
@@ -37,14 +39,23 @@ main {
   margin: 0;
   padding-left: 3rem;
   padding-right: 3rem;
+  padding-bottom: 1rem;
 }
 
 footer {
   background-color: #1a0900;
   color: #dab45f;
-  font-size: 30px;
-  text-align: center;
+  display: grid;
+  justify-content: center;
+  align-content: center;
   width: 100%;
+  padding: 1.5rem 0rem 1.5rem 0rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.footerP {
+  margin: 0 0 0 0;
 }
 
 header,
@@ -67,6 +78,21 @@ nav a {
     padding-right: 5rem;
 }
 
+/* Center and slightly reduce the paragraph in the judges description column */
+.left_side.judges-text p {
+  padding: 5rem 0rem 5rem 0rem;
+  text-align:left;
+  font-size: 0.95rem;
+  margin: 0.5rem auto;
+  max-width: 40rem;
+}
+
 .right_side {
     font-family: inherit;
+}
+
+.IndividualName {
+  font-size: 5rem;
+  text-align: center;
+  margin: 0 0 1rem 0;
 }
