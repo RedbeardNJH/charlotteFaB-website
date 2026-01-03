@@ -1,8 +1,5 @@
-#root {
-  max-width: 1280px;
-}
-
 h1 {
+  font-family:'Times New Roman', Times, serif;
   font-size: 3.2em;
   line-height: 1.1;
 }
@@ -13,6 +10,7 @@ h2 {
   font-size: 40px;
 }
 
+
 /* Scoped paragraph alignment to avoid overriding footer/other global text */
 
 img{
@@ -20,9 +18,11 @@ img{
 }
 
 
+
+
+
+
 figure {
-  /* Use inline-block to flow figures, but align their tops so different
-     heights don't cause baseline misalignment. Add a small margin. */
   display: inline-block;
   vertical-align: top;
   max-width: 20rem;
@@ -34,10 +34,10 @@ figcaption {
   color: rgb(249, 109, 109);
   text-align: center;
   font-size: 25px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-left: 1rem;
 }
 figure img {
-  /* Make images scale to their container and keep aspect ratio.
-     Using block-level images inside figures avoids baseline alignment gaps. */
   max-width: 100%;
   height: auto;
   display: block;
@@ -45,7 +45,12 @@ figure img {
 
 figure p {
   max-width: 20rem;
+  margin-left: 1rem;
 }
+
+
+
+
 
 button {
   display: block;
@@ -99,4 +104,30 @@ hr{
 }
 .people-pic{
   max-height: 400px;
+}
+
+.frame {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left_side {
+    padding-right: 5rem;
+}
+
+/* Center and slightly reduce the paragraph in the judges description column */
+.left_side.judges-text p {
+  padding: 5rem 0rem 5rem 0rem;
+  text-align:left;
+  font-size: 0.95rem;
+  margin: 0.5rem auto;
+  max-width: 40rem;
+}
+
+.right_side {
+    font-family: inherit;
+}
+
+ul li {
+  align-items: center;
 }
