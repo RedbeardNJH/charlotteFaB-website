@@ -1,98 +1,67 @@
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+/* OVERALL SETUP */
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overscroll-behavior: none;
+  font-family: sans-serif;
 }
 
+html,
 body {
-  display: flex;
-  justify-content: center;
-  /* centers horizontally */
-  height: 100vh;
-  /* makes body full height of the viewport */
-  margin: 0;
-  /* remove default spacing */
-  min-width: 320px;
-  min-height: 100vh;
-  /* background-image: url(/images/deathmatch_bg-scaled-1.jpg); */
-  background-image: url(/images/penumbra.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  background-color: aliceblue;
 }
+
+/* HEADER */
 
 header {
-  /* background-color: red; */
-  background-image: url(../../public/images/Learn_To_Play_BG-4-resized-1024x375.webp);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: 105%;
-  text-align: center;
-  padding-bottom: 10px;
-  padding-top: 1em;
-  margin-top: 1.5rem;
+  width: 100%;
+  background-color: #311455;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  align-items: center;
+  padding: 1rem 2rem;
 }
+
+.site-title {
+  text-align: center;
+  margin: 0;
+}
+
+.logo {
+  border: 5px solid black;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  overflow: visible;
+  position: relative;
+  margin-bottom: -7rem;
+  z-index: 10;
+}
+
+/* MAIN */
 
 main {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin: 0;
-  padding-left: 3rem;
-  padding-right: 3rem;
-  padding-bottom: 1rem;
+  text-align: left;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 20rem;
+  margin-right: 20rem;
 }
+
+/* FOOTER */
 
 footer {
-  background-color: #1a0900;
-  color: #dab45f;
-  display: grid;
-  justify-content: center;
-  align-content: center;
-  width: 100%;
-  padding: 1.5rem 0rem 1.5rem 0rem;
-  margin-bottom: 1.5rem;
-  text-align: center;
-}
-
-.footerP {
-  margin: 0 0 0 0;
-}
-
-header,
-nav a {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: #dab45f;
-}
-
-.content {
-  background-color: #240c45;
+  background-color: #311455;
   color: white;
-}
-
-.frame {
-    display: flex;
-    justify-content: space-between;
-}
-
-.left_side {
-    padding-right: 5rem;
-}
-
-/* Center and slightly reduce the paragraph in the judges description column */
-.left_side.judges-text p {
-  padding: 5rem 0rem 5rem 0rem;
-  text-align:left;
-  font-size: 0.95rem;
-  margin: 0.5rem auto;
-  max-width: 40rem;
-}
-
-.right_side {
-    font-family: inherit;
-}
-
-.IndividualName {
-  font-size: 5rem;
+  align-items: center;
+  padding: 1rem 2rem;
   text-align: center;
-  margin: 0 0 1rem 0;
+  position: static;
+  bottom: 0;
+  width: 100%;
 }

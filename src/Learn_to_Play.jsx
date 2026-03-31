@@ -4,7 +4,7 @@ function Learn_to_Play() {
     return (
         <>
             <h2>Learn to Play</h2>
-
+            <br />
             <div class="frame">
                 <div class="left_side">
                     <iframe width="562" height="382" src="https://www.youtube.com/embed/g12X4OQVyW4" title="The M-n-R Cast: Welcome to Rathe" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -14,7 +14,7 @@ function Learn_to_Play() {
                     <p>This video is from 2022 World Champion Michael Hamilton and Roger Bodee, who describe how they came to love the game, coming from a background in Magic: The Gathering. They describe similarities and differences, and why they love the game so much.  We hope you'll give it a try as well!</p>
                 </div>
             </div>
-
+            <br />
             <div class="frame">
                 <div class="left_side">
                     <h3>How to Learn</h3>
@@ -29,8 +29,9 @@ function Learn_to_Play() {
                     <iframe width="464" height="314" src="https://www.youtube.com/embed/3KFP_ESRz54" title="How To Play Flesh And Blood (TCG) Learn To Play In Less Than 15 minutes!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
             </div>
-
+            <br />
             <hr />
+            <br />
             <h2>Getting Started</h2>
 
             <div class="frame">
@@ -42,7 +43,7 @@ function Learn_to_Play() {
                     <p>Armory Decks are pre-constructed decks made by LSS the creators of Flesh and Blood. They retail for $40, most are offered at your local game stores. The more recent Armory Decks are both legal in Classic Constructed, the premier competitive format for the game, or Blitz, a shorter format built for new players. If you see a hero you are interested in learning be sure to pick up their armory deck</p>
                 </div>
             </div>
-
+            <br />
             <div class="frame">
                 <div class="left_side">
                     <h3>Silver Age</h3>
@@ -52,7 +53,7 @@ function Learn_to_Play() {
                     <iframe width="615" height="400" src="https://www.youtube.com/embed/VZzqCKTgSdM" title="Introducing Silver Age | Flesh and Blood TCG" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
             </div>
-
+            <br />
             <div class="frame">
                 <div class="left_side">
                     <img src="/images/bulk-box.jpg" alt="Card bulk box" class="bulk-box" />
