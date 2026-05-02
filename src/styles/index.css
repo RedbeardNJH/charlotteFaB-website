@@ -3,8 +3,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overscroll-behavior: none;
   font-family: sans-serif;
+  overscroll-behavior-y: none;
 }
 
 html,
@@ -51,6 +51,7 @@ main {
   margin-bottom: 1rem;
   margin-left: 20rem;
   margin-right: 20rem;
+  overscroll-behavior: none;
 }
 
 /* FOOTER */
