@@ -52,8 +52,8 @@ function People() {
                 </div>
                 <div class="left_side">
                     <figure class="people">
-                        <h4>Jacob Kilcrease</h4>
-                        <img src="/images/jacob-eater.jpg" width="300" alt="(Picture of Jacob)" />
+                        <h4>Jacqueline Kilcrease</h4>
+                        <img src="/images/jac-eater.jpg" width="300" alt="(Picture of Jacqueline)" />
                     </figure>
                 </div>
                 <div class="right_side">
